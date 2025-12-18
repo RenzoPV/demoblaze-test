@@ -1,0 +1,9 @@
+- Se implementó correctamente una prueba funcional automatizada E2E que valida el flujo completo de compra en el sitio https://demoblaze.com y se cumplió con todos los pasos solicitados en el ejercicio.
+
+- La automatización permitió agregar dos productos distintos al carrito de forma dinámica, lo cual garantiza que el escenario no dependa de productos fijos y validando el comportamiento real de la aplicación.
+
+- Se verificó exitosamente la visualización del carrito y la correcta apertura del formulario de compra, así como la navegación adecuada entre las distintas secciones del sitio.
+
+- El formulario de compra se completó con datos de prueba y se validó la finalización de la compra mediante la verificación del mensaje de confirmación esperado, lo que asegura la correcta ejecución del flujo principal.
+
+- Se generó un reporte de ejecución en consola que facilita la lectura del flujo, los pasos ejecutados y los resultados obtenidos con la finalidad de aportar claridad y trazabilidad al proceso de prueba.
