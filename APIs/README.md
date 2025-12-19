@@ -21,4 +21,5 @@ El escenario validado contempla las siguientes acciones:
 
    ```bash
    target/karate-reports/karate-summary.html
+   ```
    Este reporte permite visualizar los pasos ejecutados, los resultados obtenidos y la trazabilidad completa de la prueba ejecutada.
