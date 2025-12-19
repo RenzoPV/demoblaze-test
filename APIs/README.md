@@ -1,6 +1,6 @@
 # APIs – PetStore
 
-Este proyecto contiene ...
+Este proyecto contiene una prueba automatizada de diferentes endpoints de la API de PetStore: https://petstore.swagger.io.
 
 El escenario validado contempla las siguientes acciones:
 
@@ -17,3 +17,8 @@ El escenario validado contempla las siguientes acciones:
 
    ```bash
    mvn test
+4. Al finalizar la ejecución, abrir el reporte generado por Karate DSL:
+
+   ```bash
+   target/karate-reports/karate-summary.html
+   Este reporte permite visualizar los pasos ejecutados, los resultados obtenidos y la trazabilidad completa de la prueba ejecutada.

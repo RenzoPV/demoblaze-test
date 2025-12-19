@@ -1,9 +1,7 @@
-- Se implementó correctamente una prueba funcional automatizada E2E que valida el flujo completo de compra en el sitio https://demoblaze.com y se cumplió con todos los pasos solicitados en el ejercicio.
+- Se implementó correctamente una prueba funcional automatizada que valida el flujo completo de gestión de mascotas en la API de PetStore y se cumplió con todos los pasos solicitados.
 
-- La automatización permitió agregar dos productos distintos al carrito de forma dinámica, lo cual garantiza que el escenario no dependa de productos fijos y validando el comportamiento real de la aplicación.
+- La automatización permitió crear una mascota de manera dinámica, consultar su información por ID y actualizar su estatus a “sold”, lo cual asegura que el escenario no dependa de datos preexistentes y validando el comportamiento real de la API.
 
-- Se verificó exitosamente la visualización del carrito y la correcta apertura del formulario de compra, así como la navegación adecuada entre las distintas secciones del sitio.
+- La prueba validó tanto el código de respuesta HTTP como el contenido de los datos retornados (IDs y status), lo que garatinza la correcta ejecución de cada operación.
 
-- El formulario de compra se completó con datos de prueba y se validó la finalización de la compra mediante la verificación del mensaje de confirmación esperado, lo que asegura la correcta ejecución del flujo principal.
-
-- Se generó un reporte de ejecución en consola que facilita la lectura del flujo, los pasos ejecutados y los resultados obtenidos con la finalidad de aportar claridad y trazabilidad al proceso de prueba.
+- Se generó un reporte de ejecución que permite visualizar claramente los pasos ejecutados y los resultados obtenidos de cada consulta gracias a Karate DSL.
